@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <RootNamespace>BE.AspNetCore.DataProtection.MongoDb</RootNamespace>
+    <AssemblyName>BE.AspNetCore.DataProtection.MongoDb</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
