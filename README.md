@@ -51,3 +51,7 @@ private IDataProtector ResolveProtector()
     return provider.CreateProtector("myScope");  
 }
 ```
+
+# Nuget Package
+
+https://www.nuget.org/packages/BE.AspNetCore.DataProtection.MongoDb/0.1.1
