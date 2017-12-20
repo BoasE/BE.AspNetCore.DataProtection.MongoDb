@@ -20,7 +20,7 @@ services
   .PersistKeysToMongoDb(db, "BE_KeysSet"); 
 ```
 
-**Protect and unproect in a controller**
+**Example protect and unprotect data in a controller**
 ```csharp
 [HttpGet("encrypt/{value}")]
 public IActionResult encrypt(string value)
