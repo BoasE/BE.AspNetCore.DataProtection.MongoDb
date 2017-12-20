@@ -54,7 +54,7 @@ private IDataProtector ResolveProtector()
 
 If you want to protect data bound to a tenant and / or module you could just pass  it as secondary scopes like this:
 
-```chsarp
+```csharp
 private IDataProtector ResolveProtector()
 {
     return provider.CreateProtector("myScope",tenantId,moduleId);  
