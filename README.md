@@ -52,6 +52,16 @@ private IDataProtector ResolveProtector()
 }
 ```
 
+If you want to protect data bound to a tenant and / or module you could just pass  it as secondary scopes like this:
+
+```chsarp
+private IDataProtector ResolveProtector()
+{
+    return provider.CreateProtector("myScope",tenantId,moduleId);  
+}
+```
 # Nuget Package
 
 https://www.nuget.org/packages/BE.AspNetCore.DataProtection.MongoDb/0.1.1
+
+
